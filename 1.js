@@ -84,3 +84,30 @@
 // console.log(now);
 // console.log(getDay());
 
+// function lalala() {
+//     const first = Date.now()
+//     console.log("start");
+//     setTimeout(() => {
+//         console.log("timer");
+//     }, 10000)
+//     const sekond = Date.now()
+//     setInterval(() => {
+//         console.log(a);
+        
+//     }, 5000)
+//     const a = sekond - first;
+
+    
+// }
+
+// const click = document.querySelector(".btn");
+
+// click.addEventListener("click", lalala)
+//  let myFunc = function () {
+//   alert("Привіт!!!");
+// };
+
+//  let myFunc = function (name) {
+//   alert("Привіт, " + name + "!!!");
+// };
+ 
