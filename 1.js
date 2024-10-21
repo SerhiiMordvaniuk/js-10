@@ -111,3 +111,26 @@
 //   alert("Привіт, " + name + "!!!");
 // };
  
+// const lalalal = new Date()
+// console.log(lalalal);
+// lalalal.setFullYear(2025);
+// console.log(lalalal);
+// lalalal.setHours(20, 15, 1, 99)
+// console.log(lalalal);
+
+// console.log(lalalal(milliseconds) );
+
+// const lalala = Date.parse('2024-01-15T20:15');
+// console.log(lalala);
+// console.log("kk");
+
+// const date = Date.now()
+// console.log(date);
+
+
+// function getdate(lll) {
+//     let days = ["НД", "ПН", "ВТ", "СР", "ЧТ"]
+//     alert(days[lll.getDay()])
+// }
+
+// getdate(date)
