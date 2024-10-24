@@ -158,4 +158,96 @@
 //   }
 // );
 
- 
+
+// let lalala = true;
+// // lalala = false;
+
+// const promice = new Promise((resolve, reject) => {
+//     setTimeout(() => {
+//         console.log("okok");
+        
+//         if (lalala === true) {
+//             resolve(`Ok`)
+//         }
+//         else {
+//             reject(`no`)
+//         }
+//     }, 2000
+//     )
+// })
+
+// console.log(promice);
+
+
+// const isSuccess = true;
+
+// const promise = new Promise((pravda, brehna) => {
+//   setTimeout(() => {
+//     if (isSuccess) {
+//       pravda();
+//     } else {
+//       brehna();
+//     }
+//   }, 2000);
+// });
+// const lalala = ()=> console.log(`lalalla`);
+// ;
+// const nonono = () => console.log(`nonono`);
+// const final = ()=> console.log(`final`);
+
+
+// promise.then(nonono)
+// promise.then(()=> {console.log(`2 then`)})
+// promise.then(()=> {console.log(`3 ten`)})
+// promise.catch(lalala)
+// promise.finally(final)
+
+// const lalala = name => {
+//     new Promise((resolve, reject) => {
+        
+//     })
+// }
+
+// lalala("Serhii").then(user => console.log(user))
+
+// const fetchUserFromServer = username => {
+//   return new Promise((resolve, reject) => {
+// 		// ...
+//   });
+// };
+
+// const fetchUserFromServer = username => {
+//   return new Promise((resolve, reject) => {
+// 		// ...
+//   });
+// };
+
+// fetchUserFromServer("Mango")  // результатом виклику fetchUserFromServer("Mango") буде проміс
+// 	.then(user => console.log(user))  // проміс обробляємо в методі then()
+//   .catch(error => console.error(error));  // проміс обробляємо в методі catch()
+
+// const makeGreeting = (guestName, onSuccess, onError) => {
+//   if (!guestName) {
+//     onError("Guest name must not be empty");
+//   } else {
+// 		onSuccess(`Welcome ${guestName}`);
+// 	}
+// };
+
+// makeGreeting(
+//   "Mango",
+//   lalala => console.log(lalala),
+//   error => console.error(error)
+// );
+
+
+// const userName = name => {
+//     if (!name) {
+//             return Promise.reject("Імя немає")
+//     }
+//     else {
+//         return Promise.resolve(`hello ${name}`)
+//     }
+// }
+
+// userName("Illa").then((resolve)=>console.log(resolve))
