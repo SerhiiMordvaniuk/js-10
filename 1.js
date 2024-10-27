@@ -251,3 +251,47 @@
 // }
 
 // userName("Illa").then((resolve)=>console.log(resolve))
+
+// let student = {
+//   name: 'Іван',
+//   age: 30,
+//   isAdmin: false,
+//   courses: ['html', 'css', 'js'],
+//   spouse: null
+// };
+
+
+
+// let tututu = JSON.stringify(student);
+// console.log(tututu);
+// console.log(typeof tututu);
+
+
+// let str = '{"title":"Конференція","date":"2017-11-30T12:00:00.000Z"}';
+
+// let lalala = JSON.parse(str, function (key, value) {
+//     if (key == 'date') return new Date(value);
+//     return value
+// })
+
+// console.log(lalala.date.getDate());
+
+
+// let user = {
+//   name: "Іван Іванов",
+//   age: 35
+// };
+
+// let lalala = JSON.stringify(user)
+// console.log(lalala);
+
+// localStorage.keys = "lololo"
+
+// let keys = Object.keys(localStorage);
+// for (let key of keys) {
+//     console.log(`${key} : ${localStorage.getItem(key)}`);
+    
+// }
+
+
+
