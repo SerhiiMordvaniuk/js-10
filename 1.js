@@ -295,3 +295,91 @@
 
 
 
+// fetch('https://jsonplaceholder.typicode.com/todos/1')
+//       .then(response => response.json())
+//       .then(json => console.log(json))
+
+ 
+// fetch("https://jsonplaceholder.typicode.com/users")
+//     .then(responce => {
+//         if (!responce.ok) {
+//             throw new Error(responce.status);
+//         }
+//         return responce.json()
+//     }
+//     )
+//     .then(json => console.log(json))
+//     .catch(error => console.log(error))
+
+// const btn = document.querySelector(".btn");
+// const list = document.querySelector(".user-list");
+
+// const param = new URLSearchParams({
+//     _limit: 5,
+// })
+
+// btn.addEventListener("click", () => {
+//     fetch(`https://jsonplaceholder.typicode.com/users?${param}`)
+//         .then(response => response.json())
+//         .then(users => {
+//             const user = users.map(user => {
+//                 return `
+//                 <li>
+//                 <p><b>Name</b> ${user.name}</p></li>
+//                 <p><b>Email</b> ${user.email}</p></li>
+//                 <p><b>Username</b> ${user.username}</p></li>
+//                 `
+//             }).join("")
+//             list.insertAdjacentHTML("beforeend", user)
+//         })
+// })
+
+
+// const foo = async () => {
+//     return 10
+// }
+
+// foo().then(value =>
+//     console.log(value)
+// )
+
+// const foo = async () => {
+// 	console.log("Before await");
+
+// 	const promiseValue = await new Promise(resolve => {
+// 		setTimeout(() => resolve(5), 2000)
+// 	});
+
+// 	console.log("After await", promiseValue);
+// };
+
+// foo(); // через 2 секунди виведеться в консоль  "After await" 5
+// console.log("Before try...catch");
+
+// try {
+//   const result = 10 / 0;
+//   console.log(result); // Цей рядок не виконається через помилку
+// } catch (error) {
+//   // Обробимо помилку
+//   console.error(error.message);
+// }
+
+// console.log("After try...catch");
+
+// let year = prompt("aaaaa");
+
+// year == 15 ? alert("ok") : alert("no")
+
+// let lalala = prompt("Яка назва?");
+// if (lalala == "10") {
+//   alert("правда")
+// }
+// else {
+//   alert("Ви помилильст")
+// }
+
+// let result;
+
+// 1 + 3 < 4 ? result = "тутуту" : result = "татата"
+
+// console.log(result);
