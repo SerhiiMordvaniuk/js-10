@@ -383,3 +383,84 @@
 // 1 + 3 < 4 ? result = "тутуту" : result = "татата"
 
 // console.log(result);
+
+// let name = prompt("Name");
+
+// if (name.toLowerCase().trim() == "admin") {
+//     let pass = prompt("password")
+    
+//     if (pass.trim() == "tututu") {
+//         alert("ласкво просимо")
+//     }
+//     else {
+//         alert("[p")
+//     }
+// }
+// else {
+//     alert("я Вас не знаю")
+// }
+
+// for (let i = 0; i < 10;) {
+//     alert(i)
+//     i +=2
+// }
+// let i = 0;
+// while (i < 3) {
+//     alert(i)
+//     i++
+// }
+// let num;
+
+// do {
+//   num = prompt("Введене число, більше за 100?", 0);
+// } while (num <= 100 && num);
+
+// for (let i = 0; i < 10; i++) {
+//     if (i % i == 0) {
+//         alert(i)
+//     }
+// }
+
+// let name = "Vasa"
+
+// function names(value) {
+//     alert(`Hello ${value}`)
+// }
+
+// names(name)
+let lalalla = prompt("AAAA")
+
+// function letAge(age) {
+//     if (age > 18) {
+//         return console.log("ok");
+        
+//     }
+//     return console.log("no");
+// }
+
+// letAge(lalalla)
+
+
+// function checkAge(age) {
+//     age > 18 ? console.log("ok") : console.log("no");
+// }
+
+// function checkAge(age) {
+//     age > 18 ? console.log("ok") : console.log("no");
+// }
+
+
+// function checkAge(age) {
+//   if (age > 18) {
+//     return true;
+//   } else {
+//     return confirm('Батьки дозволили?');
+//   }
+// }
+
+// checkAge(lalalla)
+
+
+// function getNumber(a, b) {
+//     return a<b ? a : b
+// }
