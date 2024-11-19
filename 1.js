@@ -428,7 +428,7 @@
 // }
 
 // names(name)
-let lalalla = prompt("AAAA")
+// let lalalla = prompt("AAAA")
 
 // function letAge(age) {
 //     if (age > 18) {
@@ -464,3 +464,57 @@ let lalalla = prompt("AAAA")
 // function getNumber(a, b) {
 //     return a<b ? a : b
 // }
+
+// function newNumber(x, n) {
+//     if (n < 1) {
+//         alert("error")
+//     }
+//     else {
+//     console.log(x**n);
+//     }
+// }
+
+// newNumber(5, 2)
+
+// const newFunxtion = function () {
+//     console.log("Hello");
+// }
+
+// alert(newFunxtion)
+//
+
+// function ask(question, yes, no) {
+//     if (confirm(question)) {
+//         yes()
+//     }
+//     else {
+//         no()
+//     }
+// }
+
+// function sayYes() {
+//     alert("Okay");
+    
+// }
+
+// function sayNo() {
+//     alert("Nope");
+    
+// }
+
+// ask("Are you agree?", sayYes, sayNo)
+
+// function ask(question, yes, no) {
+//   if (confirm(question)) yes();
+//   else no();
+// }
+// let ask = (question, yes, no) => {
+// confirm(question) ? yes() : no();
+// }
+
+// ask(
+//   "Ви згодні?",
+//   () => alert("Ви погодились."),
+//   () => alert("Ви скасували виконання.")
+// );
+ 
